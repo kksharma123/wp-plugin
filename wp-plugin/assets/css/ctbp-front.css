@@ -1,0 +1,118 @@
+.full-width {
+    min-width: 90% !important;
+    clear: both;
+}
+
+.gallery img {
+    width: 150px !important;
+    height: 150px !important;
+    padding: 10px;
+    display: inline-block;
+}
+
+label {
+    display: flex;
+}
+.full-width .form-fields {
+    width: 33.33% !important;
+    float: left;
+        margin-bottom: 20px;
+
+}
+
+    	.cc-selector input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+
+.cc-selector-2 input{
+    position:absolute;
+    z-index:999;
+}
+
+.house{background-image:url(../img/house.png);}
+.condo{background-image:url(../img/condo.png);}
+.ho5{background-image:url(../img/ho5.png);}
+
+.cc-selector-2 input:active +.drinkcard-cc, .cc-selector input:active +.drinkcard-cc{opacity: .9;}
+.cc-selector-2 input:checked +.drinkcard-cc, .cc-selector input:checked +.drinkcard-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+select {
+    font-size: 14px;
+    width: 76%;
+    border: none;
+    border-bottom: 2px solid #d7d7d7 !important;
+}
+
+.drinkcard-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+  width: 150px;
+    height: 150px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    
+}
+.drinkcard-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+input[type=radio] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border: 1px solid !important;
+}
+input[type=radio]:after {
+    left: 6px;
+    top: 6px;
+    }
+input {
+    border: none !important;
+    border-bottom: 2px solid #d7d7d7 !important;
+    padding: 0;
+    line-height: 40px;
+    font-size: 14px;
+    width: 75%;
+}
+.entry-content {
+    background: #fff;
+}
+
+form#form_data {
+    padding: 20px;
+}
+.cc-selector-2 {
+    display: inline-block;
+    width: 100%;
+}
+
+.contain_radio {
+       float: left;
+    width: 31.33%;
+    text-align: center;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: 2px solid #d7d7d7;
+}
+
+.full-width.form-button {
+    text-align: center;
+}
+button.submit_form {
+    background: #40af40 !important;
+    border-radius: 20px;
+    padding: 9px 41px;
+}

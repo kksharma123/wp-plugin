@@ -1,0 +1,10 @@
+a.misha-upl {
+    background: #337ab7;
+    color: #fff;
+    padding: 10px 23px;
+    text-decoration: none !important;
+}
+
+.custom_gallery td{
+	display: inline-grid;
+	}
